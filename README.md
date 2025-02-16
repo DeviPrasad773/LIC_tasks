@@ -23,3 +23,5 @@ Questions For Understanding these analysis:
 
 
 Q1)  i) Find DC operating point ii) Do transient analysis and find Gain iii) Do AC Analysis.
+
+![Screenshot 2025-02-16 222633](https://github.com/user-attachments/assets/965cb7e3-1425-4581-932d-ccc1075e25ec)
