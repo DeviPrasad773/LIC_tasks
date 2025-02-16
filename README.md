@@ -28,6 +28,7 @@ Q1)  i) Find DC operating point ii) Do transient analysis and find Gain iii) Do 
 
 
 Given:
+
 	The above circuit is a common source amplifier.
 
 	VDD(V2) = 1.8V
