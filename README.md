@@ -25,3 +25,13 @@ Questions For Understanding these analysis:
 Q1)  i) Find DC operating point ii) Do transient analysis and find Gain iii) Do AC Analysis.
 
 ![Screenshot 2025-02-16 222633](https://github.com/user-attachments/assets/965cb7e3-1425-4581-932d-ccc1075e25ec)
+
+
+Given:
+	The above circuit is a common source amplifier.
+
+	VDD(V2) = 1.8V
+
+	Vg(V1)=0.9V
+
+	Circuit consist of a resister (R) of 1K ohm with power rating of 100µW.
