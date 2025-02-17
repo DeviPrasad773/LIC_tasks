@@ -67,6 +67,19 @@ In AC analysis, we examine circuits across varying frequencies. Choose a sweep t
 
 ![Screenshot 2025-02-17 214918](https://github.com/user-attachments/assets/eafdb60d-660c-4d58-8ddf-cfe419f79bd8)
 
+## Conclusion
+
+This report presents an LTspice-based analysis of an MOSFET circuit through DC, transient, and AC analysis. 
+The results show:
+
+•	DC Analysis confirms the operating region of the MOSFET.
+
+•	Transient Analysis validates the time-domain response for a 1 kHz input.
+
+•	AC Analysis provides insight into the frequency-dependent gain characteristics.
+
+These findings help in understanding MOSFET behavior in analog circuits.
+
 
 
 
