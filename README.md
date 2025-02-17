@@ -67,6 +67,7 @@ In AC analysis, we examine circuits across varying frequencies. Choose a sweep t
 
 ![Screenshot 2025-02-17 214918](https://github.com/user-attachments/assets/eafdb60d-660c-4d58-8ddf-cfe419f79bd8)
 
+
 ## Conclusion
 
 This report presents an LTspice-based analysis of an MOSFET circuit through DC, transient, and AC analysis. 
