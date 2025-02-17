@@ -1,9 +1,9 @@
 # LIC_tasks
 Linear Integrated Circuit (LIC) 
 
-Analysis of MOSFET Circuit Using LTspice
+# Analysis of MOSFET Circuit Using LTspice
 
-Introduction
+## Introduction
 
 This report presents a analysis of a simple MOSFET circuit using LTspice. The study includes DC operating point analysis, transient analysis, and AC frequency response over a broad frequency range.(0.1hz – 1Thz).
 
@@ -21,7 +21,7 @@ Used to find Gain and to observe the time-domain response of the circuit when an
 
 Used to determine the frequency response of the circuit by performing small-signal AC analysis over a wide frequency range (0.1 Hz to 1 THz).
 
-Questions For Understanding these analysis:
+## Questions For Understanding these analysis:
 
 
 Q1)  i) Find DC operating point ii) Do transient analysis and find Gain iii) Do AC Analysis.
@@ -29,7 +29,7 @@ Q1)  i) Find DC operating point ii) Do transient analysis and find Gain iii) Do 
 ![Screenshot 2025-02-16 231039](https://github.com/user-attachments/assets/05329a17-f7ca-4e6b-81e7-52b61fe421a8)
 
 
-Given:
+### Given:
 
 	The above circuit is a common source amplifier.
 
@@ -39,8 +39,24 @@ Given:
 
 	Circuit consist of a resister (R) of 1K ohm with power rating of 100
 
-i) Find DC operating point 
+## i) Find DC operating point 
 
 WKT P=VI where P=100µW and V=1.8V we can find Id, Id=P/V=55.55µA. Now we know Id, so by trial and error we can find the width and length of the MOSFET by keeping anyone of the parameter constant. From trial and error we found out that the w/l should be 6.86  to get Id as 55.55µA. To find other parameters we need to do simulation, select DC op pnt to find operating point and other parameters.
 
 ![Screenshot 2025-02-16 232005](https://github.com/user-attachments/assets/fbc2f7ca-889c-41f1-bbef-252885dfe6ad)
+
+## ii)Do transient analysis and find gain
+
+Transient analysis observes voltage and current changes over time with respect to input voltage. Use a sine wave with 0.9V DC offset, 50mV amplitude, and 1kHz frequency for input voltage.
+
+![q_t1](https://github.com/user-attachments/assets/9664111a-f07c-434e-97d7-f16c97292ca4)
+
+## Input and Output Waveform:
+
+![q_t1wav](https://github.com/user-attachments/assets/8f26bd87-9eb5-4dd5-9a81-8acf898da2de)
+
+
+
+
+
+
