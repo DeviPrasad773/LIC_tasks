@@ -55,6 +55,19 @@ Transient analysis observes voltage and current changes over time with respect t
 
 ![q_t1wav](https://github.com/user-attachments/assets/8f26bd87-9eb5-4dd5-9a81-8acf898da2de)
 
+## iii) AC analysis 
+
+In AC analysis, we examine circuits across varying frequencies. Choose a sweep type of "decade" with 20 points per decade, starting from 0.1 to 1T. This method provides detailed frequency response data for the circuit under analysis.
+
+![Screenshot 2025-02-17 214307](https://github.com/user-attachments/assets/19023b2f-227f-4c92-9e7b-4455f42120ef)
+
+![Screenshot 2025-02-17 214228](https://github.com/user-attachments/assets/6a6a7d79-e13d-4907-8666-9c9c93a271e1)
+
+### Wave Response:
+
+![Screenshot 2025-02-17 214918](https://github.com/user-attachments/assets/eafdb60d-660c-4d58-8ddf-cfe419f79bd8)
+
+
 
 
 
