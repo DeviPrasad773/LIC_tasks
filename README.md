@@ -71,6 +71,39 @@ In AC analysis, we examine circuits across varying frequencies. Choose a sweep t
 
 ## i) Find DC operating point 
 
+To set the DC operating point in the saturation region for NMOS, the condition is:
+
+VDS>VGS−VTH
+
+where VGS-VTH=VOV
+
+From the given data:
+
+NMOS threshold voltage: 
+
+𝑉𝑇𝐻=0.36624𝑉
+
+Overdrive voltage: 
+
+𝑉𝑂𝑉=𝑉𝐺𝑆−𝑉𝑇𝐻=0.9𝑉−0.36624𝑉=0.53376𝑉
+
+ 
+For NMOS to be in saturation, we need:
+
+
+VB>0.301V
+
+Choosing 
+
+VB​=0.7V, we ensure both MOSFETs remain in saturation.
+
+From LTspice simulation, the DC operating point results:
+
+Drain current: 
+
+𝐼𝐷=5.55×10−5𝐴
+
+
 ![image](https://github.com/user-attachments/assets/425618fc-9128-45ba-a06c-0421a15b937e)
 
 ![Screenshot 2025-02-17 235734](https://github.com/user-attachments/assets/bdc539ce-7293-489f-9cb2-17aa7b85b0b1)
@@ -92,18 +125,14 @@ In AC analysis, we examine circuits across varying frequencies. Choose a sweep t
 
 ![image](https://github.com/user-attachments/assets/e2c41513-bd3e-4ad8-8e31-a9313e58bf4d)
 
-## Result
+For AC analysis, the gain is determined over a frequency range of:
 
-ID=5.55 *10^-5 A
+0.1Hz to 1THz
 
-VDS1=0.9v
-
-Gain = 20.2929dB
 
 ## Inference
 
-Active PMOS Load offers higher gain but lower bandwidth, making it suitable for applications prioritizing amplification over frequency range. The choice of load, whether passive or active, plays a crucial role in determining circuit performance. Understanding these differences helps optimize gain, bandwidth, and overall signal integrity in CMOS analog design. Active loads can provide higher gain due to the increased transconductance, but this comes at the cost of reduced bandwidth. Conversely, passive loads typically offer broader bandwidth but with lower gain. The selection between these two types of loads depends on the specific requirements of the application, such as the need for high gain versus the need for wide bandwidth. By carefully considering these factors, designers can make informed decisions to meet the performance criteria of their analog circuits, leading to more efficient and reliable designs in various applications.
-
+The LTspice simulation verifies that the designed NMOS circuit operates efficiently as an amplifier, with both DC biasing and AC response aligning with theoretical expectations. The circuit provides moderate gain with stable frequency characteristics.
 
 ## Conclusion
 
