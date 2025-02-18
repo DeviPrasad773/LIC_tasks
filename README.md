@@ -90,6 +90,19 @@ In AC analysis, we examine circuits across varying frequencies. Choose a sweep t
 
 ![Screenshot 2025-02-18 112121](https://github.com/user-attachments/assets/18970d5d-ce1f-414b-997b-10b1952ecc8f)
 
+![image](https://github.com/user-attachments/assets/e2c41513-bd3e-4ad8-8e31-a9313e58bf4d)
+
+## Result
+
+ID=5.55 *10^-5 A
+
+VDS1=0.9v
+
+Gain = 20.2929dB
+
+## Inference
+
+Active PMOS Load offers higher gain but lower bandwidth, making it suitable for applications prioritizing amplification over frequency range. The choice of load, whether passive or active, plays a crucial role in determining circuit performance. Understanding these differences helps optimize gain, bandwidth, and overall signal integrity in CMOS analog design. Active loads can provide higher gain due to the increased transconductance, but this comes at the cost of reduced bandwidth. Conversely, passive loads typically offer broader bandwidth but with lower gain. The selection between these two types of loads depends on the specific requirements of the application, such as the need for high gain versus the need for wide bandwidth. By carefully considering these factors, designers can make informed decisions to meet the performance criteria of their analog circuits, leading to more efficient and reliable designs in various applications.
 
 
 ## Conclusion
