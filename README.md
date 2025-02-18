@@ -67,6 +67,30 @@ In AC analysis, we examine circuits across varying frequencies. Choose a sweep t
 
 ![Screenshot 2025-02-17 214918](https://github.com/user-attachments/assets/eafdb60d-660c-4d58-8ddf-cfe419f79bd8)
 
+# Q2)  i) Find DC operating point ii) Do transient analysis and find Gain iii) Do AC Analysis.
+
+## i) Find DC operating point 
+
+![image](https://github.com/user-attachments/assets/425618fc-9128-45ba-a06c-0421a15b937e)
+
+![Screenshot 2025-02-17 235734](https://github.com/user-attachments/assets/bdc539ce-7293-489f-9cb2-17aa7b85b0b1)
+
+## ii)Do transient analysis and find gain
+
+![Screenshot 2025-02-18 112025](https://github.com/user-attachments/assets/8fecf8cd-4887-4b55-b71c-ce33beb1f250)
+
+
+### Output WAveform
+
+![Screenshot 2025-02-18 000059](https://github.com/user-attachments/assets/c5d2b23e-53cb-475a-81c8-5f1ce75e2345)
+
+## iii) AC analysis 
+
+![Screenshot 2025-02-18 112145](https://github.com/user-attachments/assets/dbdf5ff8-acac-4d37-8ad5-2b29e6f2d9a4)
+
+![Screenshot 2025-02-18 112121](https://github.com/user-attachments/assets/18970d5d-ce1f-414b-997b-10b1952ecc8f)
+
+
 
 ## Conclusion
 
