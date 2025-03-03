@@ -49,7 +49,8 @@ WKT P=VI where P=100µW and V=1.8V we can find Id, Id=P/V=55.55µA. Now we know 
 
 Transient analysis observes voltage and current changes over time with respect to input voltage. Use a sine wave with 0.9V DC offset, 50mV amplitude, and 1kHz frequency for input voltage.
 
-![q_t1](https://github.com/user-attachments/assets/9664111a-f07c-434e-97d7-f16c97292ca4)
+![Screenshot 2025-03-03 210405](https://github.com/user-attachments/assets/7c709c1b-fbcd-4b2b-80aa-beff0293a2d2)
+
 
 ## Input and Output Waveform:
 
@@ -59,7 +60,8 @@ Transient analysis observes voltage and current changes over time with respect t
 
 In AC analysis, we examine circuits across varying frequencies. Choose a sweep type of "decade" with 20 points per decade, starting from 0.1 to 1T. This method provides detailed frequency response data for the circuit under analysis.
 
-![Screenshot 2025-02-17 214307](https://github.com/user-attachments/assets/19023b2f-227f-4c92-9e7b-4455f42120ef)
+![Screenshot 2025-03-03 210542](https://github.com/user-attachments/assets/7ac094fa-ff34-4fe7-893a-0c0a6abb4509)
+
 
 ![Screenshot 2025-02-17 214228](https://github.com/user-attachments/assets/6a6a7d79-e13d-4907-8666-9c9c93a271e1)
 
