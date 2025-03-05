@@ -59,6 +59,7 @@ Rss = 0.4V / 1.22mA
 Rss = 327.86 Ω
 
 ### DC Analysis :
+----
 - Make the necessary connections as per the circuit daigram.
 - Set the Rd and Rss values such that the transistors will operate in saturation region .
 - Vary Rd and W/L to get the required Vocm and Id.
@@ -93,6 +94,7 @@ Vout(min) = Vov1 + Vp = (0.55-0.366)+0.4 = 0.584V
 Vout(max) = Vdd-(Id*Rd) = 1.1003V
 
 ### Transient Analysis :
+---
 
 * Replace DC input with an AC signal.
 * Use SINE(dc_offset, Amplitude, Frequency).
@@ -109,6 +111,7 @@ Vout(max) = Vdd-(Id*Rd) = 1.1003V
 - It has a gain of 1.48V/V
 
 ### Transient analysis for Vincm(min)=0.766V
+--
 
 ![min_cir](https://github.com/user-attachments/assets/915f6be8-c3dd-4510-9597-a8c021a61c8c)
 
@@ -116,6 +119,7 @@ Vout(max) = Vdd-(Id*Rd) = 1.1003V
 
 
 ### Transient analysis for Vincm(max)=1.463.V
+---
 
 ![max_cir](https://github.com/user-attachments/assets/009ac520-c4ce-4ec4-be74-677401dbd702)
 
@@ -123,7 +127,7 @@ Vout(max) = Vdd-(Id*Rd) = 1.1003V
 ![max_wave](https://github.com/user-attachments/assets/162b7f00-7b94-4d40-be20-8600ca2297d2)
 
 ### AC Analysis:
-
+---
 ![ac_cir](https://github.com/user-attachments/assets/0d549fd2-893e-459e-ac37-76f50d633c8e)
 
 For this circuit the theoretical gain is,
