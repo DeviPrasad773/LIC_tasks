@@ -140,9 +140,17 @@ Av= -6.63mS * 1.147kΩ = -7.605 V/V
 
 as we know Av= 20Log(Av)
 
-therefore in dB scale theoretical gain is 17.621dB 
+therefore in dB scale theoretical gain is 17.621dB.
+
+#### Steps to get Ac analysis:
+- In simulation tab select AC Analysis.
+- In the AC Analysis tab, select **Type of Sweep as Decade**.
+- Enter the number of points per decade (ex:20) and the frequency range ( 0.1Hz to 1THz).
 
 ![ac_wave](https://github.com/user-attachments/assets/859b4f44-4bfa-4c88-822c-7642de88a26c)
+
+
+
 
 
 
