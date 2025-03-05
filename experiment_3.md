@@ -108,5 +108,18 @@ Vout(max) = Vdd-(Id*Rd) = 1.1003V
 - We can observe that it has 180 degree Phase shift.
 - It has a gain of 1.48V/V
 
-#### Transient analysis for Vincm(min)=0.766V
+### Transient analysis for Vincm(min)=0.766V
+
+![min_cir](https://github.com/user-attachments/assets/915f6be8-c3dd-4510-9597-a8c021a61c8c)
+
+![min_wave](https://github.com/user-attachments/assets/f81c933b-3013-4a90-b77f-25f7ff702135)
+
+
+### Transient analysis for Vincm(max)=1.463.V
+
+![max_cir](https://github.com/user-attachments/assets/009ac520-c4ce-4ec4-be74-677401dbd702)
+
+
+![max_wave](https://github.com/user-attachments/assets/162b7f00-7b94-4d40-be20-8600ca2297d2)
+
 
