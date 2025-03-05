@@ -6,14 +6,15 @@
 Design and Analyze the MOS differential amplifier circuit for the following specifications:
 
 - Supply Voltage (Vdd) = 1.8V
-- Power (P) <= 2.2mW
-- Common Mode Input Voltage (Vicm) = 0.95V
 - Output Common Mode Voltage (Vocm) = 1.1V
+- Power (P) <= 2.2mW
 - Voltage at point P (Vp) = 0.4V
+- Common Mode Input Voltage (Vicm) = 0.95V
+
 
 Perform:
 
-DC Analysis, Transient Analysis, AC Analysis, Extract required parameters
+DC Analysis, Transient Analysis, Frequency Response and Extract the parameters
 
 ## Circuit 1
 
