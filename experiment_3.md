@@ -59,11 +59,11 @@ Rss = 0.4V / 1.22mA
 Rss = 327.86 Ω
 
 ### DC Analysis :
-
 - Make the necessary connections as per the circuit daigram.
 - Set the Rd and Rss values such that the transistors will operate in saturation region .
 - Vary Rd and W/L to get the required Vocm and Id.
-  
+
+
   ![exp-3_out_dc](https://github.com/user-attachments/assets/9d90d2d6-151e-4456-9599-98a1306c6a62)
   
  - After this in "view command" go to " SPICE Output Log " option to check Vgs, Vth ,Vds etc.
