@@ -91,3 +91,22 @@ Vincm(max) = Vdd - (Id*Rd) + Vth = 1.463V
 Vout(min) = Vov1 + Vp = (0.55-0.366)+0.4 = 0.584V 
 
 Vout(max) = Vdd-(Id*Rd) = 1.1003V
+
+### Transient Analysis :
+
+* Replace DC input with an AC signal.
+* Use SINE(dc_offset, Amplitude, Frequency).
+* Go to "Simulate" > "Edit Simulation Cmd" > "Transient".
+* Set Stop Time: 10ms.
+* Run the simulation.
+* Our dc_offset = 0.95V and assume amplitude as 50mV and frequency as 1Khz
+
+![exp-3_cir_tra](https://github.com/user-attachments/assets/dc1f9c01-39a1-4e23-baeb-a7f3247fc6ae)
+
+![exp-3_out_tra](https://github.com/user-attachments/assets/4853fda8-6388-4299-9257-7caaec532ef7)
+
+- We can observe that it has 180 degree Phase shift.
+- It has a gain of 1.48V/V
+
+#### Transient analysis for Vincm(min)=0.766V
+
