@@ -58,12 +58,11 @@ Rss = 0.4V / 1.22mA
 
 Rss = 327.86 Ω
 
-DC Analysis :
+### DC Analysis :
 
 - Make the necessary connections as per the circuit daigram.
 - Set the Rd and Rss values such that the transistors will operate in saturation region .
 - Vary Rd and W/L to get the required Vocm and Id.
-- Go to "Simulate" -> "Edit Simulation Cmd" -> "DC op pnt".
   
   ![exp-3_out_dc](https://github.com/user-attachments/assets/9d90d2d6-151e-4456-9599-98a1306c6a62)
   
@@ -71,3 +70,24 @@ DC Analysis :
   
   ![exp-3_op_log_dc](https://github.com/user-attachments/assets/5f8bed14-ea3a-40e1-9897-28879c361961)
 
+**- Condition for transistor to operate in saturation region,**
+
+Vgs>Vth, 
+
+Vds> Vov 
+
+From the Output Log we can observe that Vgs= 0.552V , Vth= 0.481V and Vds = 0.759V . 
+
+It is satisfying the required condition therefore, the transistors lies in saturation region .
+
+**Q point = (Vds,Id) = (0.759V,0.607mA).**
+
+Now lets caluculate Vincm(min), Vincm(max), Vout(min), Vout(max).
+
+Vincm(min)= Vth + Vp = 0.366 + 0.4 = 0.766V 
+
+Vincm(max) = Vdd - (Id*Rd) + Vth = 1.463V 
+
+Vout(min) = Vov1 + Vp = (0.55-0.366)+0.4 = 0.584V 
+
+Vout(max) = Vdd-(Id*Rd) = 1.1003V
