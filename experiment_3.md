@@ -32,15 +32,15 @@ Design
 
 Calculation:
 
-Determine Iss (Source Current):
+- Determine Iss (Source Current):
 
 Iss = Power / Vdd
 
 Iss = 2.2mW / 1.8V = 1.22mA
 
-Therefore, Id1=Id2=0.61mA
+Therefore, **Id1=Id2=0.61mA**
 
-Calculate Rd (Drain Resistance):
+- Calculate Rd (Drain Resistance):
 
 Vdd=(Id*Rd)+Vocm
 
@@ -50,7 +50,7 @@ Rd = (1.8V - 1.1V) / 0.61mA
 
 Rd = 1147 Ω
 
-Calculate Rss (Source Resistance):
+- Calculate Rss (Source Resistance):
 
 Rss = Vp / Iss
 
