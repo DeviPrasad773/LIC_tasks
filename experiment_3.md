@@ -122,4 +122,23 @@ Vout(max) = Vdd-(Id*Rd) = 1.1003V
 
 ![max_wave](https://github.com/user-attachments/assets/162b7f00-7b94-4d40-be20-8600ca2297d2)
 
+### AC Analysis:
+
+![ac_cir](https://github.com/user-attachments/assets/0d549fd2-893e-459e-ac37-76f50d633c8e)
+
+For this circuit the theoretical gain is,
+
+gain = Av= -Gm*Rd 
+
+where gm= (2Id)/Vov = 6.63mS
+
+Av= -6.63mS * 1.147kΩ = -7.605 V/V
+
+as we know Av= 20Log(Av)
+
+therefore in dB scale theoretical gain is 17.621dB 
+
+![ac_wave](https://github.com/user-attachments/assets/859b4f44-4bfa-4c88-822c-7642de88a26c)
+
+
 
