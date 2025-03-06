@@ -162,7 +162,46 @@ Av= -6.63mS * 1.147kΩ = -7.605 V/V
 |Av(in V/V)     | 8.56         | 9.47            |
 
 
+## Circuit 2
 
+### Circuit Diagram:Current Source-Loaded Differential Pair
+
+![cir2](https://github.com/user-attachments/assets/f917e7ba-9250-448a-ae9f-dd3ca8e453a4)
+
+### DC Analysis
+
+![cir2_dc_out](https://github.com/user-attachments/assets/bef9bd61-d951-4587-bd9f-5a62232cea57)
+
+### Transient Analysis
+
+![image](https://github.com/user-attachments/assets/847c69c6-5f6a-45a2-b623-92bc34a1fc81)
+
+### AC Analysis
+
+![image](https://github.com/user-attachments/assets/3b0ed8ce-9b2c-412d-a1d2-565af6ee8ef3)
+
+
+
+## Circuit 3
+
+### Circuit Diagram:Simple Current Source Differential Pair
+
+![image](https://github.com/user-attachments/assets/3a6719af-af63-41fb-a9e5-aae8dbe9735e)
+
+
+### DC Analysis
+
+
+![image](https://github.com/user-attachments/assets/aa9517fe-48a2-4029-8f63-c86a8f1c6a6e)
+
+### Transient Analysis
+
+![image](https://github.com/user-attachments/assets/a97b6365-f216-45d8-ac00-0a05c050c8a5)
+
+
+### AC Analysis
+
+![image](https://github.com/user-attachments/assets/6b536ef4-70cd-4a73-8fc3-e64960e50049)
 
 
 
