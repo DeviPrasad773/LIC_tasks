@@ -154,7 +154,7 @@ Av= -6.63mS * 1.147kΩ = -7.605 V/V
 
 - The theoretical gain in db is 18.65 DB
 - **Obatained differential gain is around 19.53 DB**
-- **3db Bandwidth=1.25Ghz**
+- **3db Bandwidth=2.16Ghz**
 
 |Parameter      |Theory value  | Practical value |
 |---------------|--------------|-----------------|
@@ -194,14 +194,44 @@ Av= -6.63mS * 1.147kΩ = -7.605 V/V
 
 ![image](https://github.com/user-attachments/assets/aa9517fe-48a2-4029-8f63-c86a8f1c6a6e)
 
+  
+ - After this in "view command" go to " SPICE Output Log " option to check Vgs, Vth ,Vds etc.
+
+![image](https://github.com/user-attachments/assets/92dd7c93-1de4-4afa-86c9-fcbdcab9e626)
+
+
+
+**- Condition for transistor to operate in saturation region,**
+
+Vgs>Vth, 
+
+Vds> Vov 
+
+From the Output Log we can observe that Vgs= 0.55V , Vth= 0.498V and Vds = 0.7V . 
+
+It is satisfying the required condition therefore, the transistors lies in saturation region .
+
+**Q point = (Vds,Id) = (0.7V,0.610mA).**
+
+
 ### Transient Analysis
 
 ![image](https://github.com/user-attachments/assets/a97b6365-f216-45d8-ac00-0a05c050c8a5)
+
+- We can observe that it has 180 degree Phase shift.
+- It has a gain of -8.535V/V
 
 
 ### AC Analysis
 
 ![image](https://github.com/user-attachments/assets/6b536ef4-70cd-4a73-8fc3-e64960e50049)
 
+- The theoretical gain in db is 18.65 DB
+- **Obatained differential gain is around 19.56 DB**
+- **3db Bandwidth=2.15Ghz**
 
+|Parameter      |Theory value  | Practical value |
+|---------------|--------------|-----------------|
+|Av(in dB)      | 18.65dB      | 19.56dB         |
+|Av(in V/V)     | 8.53         | 9.50            |
 
