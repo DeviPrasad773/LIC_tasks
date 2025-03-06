@@ -18,7 +18,7 @@ DC Analysis, Transient Analysis, Frequency Response and Extract the parameters
 
 ## Circuit 1
 
-### Circuit Diagram:
+### Circuit Diagram:Resistor-Loaded Differential Pair
 
 ![cir_dc](https://github.com/user-attachments/assets/593f5467-7ad0-41f1-a5d2-d3495f17475d)
 
@@ -156,7 +156,10 @@ Av= -6.63mS * 1.147kΩ = -7.605 V/V
 - **Obatained differential gain is around 19.53 DB**
 - **3db Bandwidth=1.25Ghz**
 
-
+|Parameter      |Theory value  | Practical value |
+|---------------|--------------|-----------------|
+|Av(in dB)      | 18.65dB      | 19.53dB         |
+|Av(in V/V)     | 8.56         | 9.47            |
 
 
 
