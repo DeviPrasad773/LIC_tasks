@@ -218,6 +218,15 @@ It is satisfying the required condition therefore, the transistors lies in satur
 
 ### DC Analysis
 
+W.K.T
+
+Vds = Vgs - Vt ( Vds = Vp = 0.4V )
+
+0.4 + 0.36624 = Vg ( since source is grounded )
+
+Vbias = Vg = 0.76624V ( Bias voltage at the gate for 3rd n type mosfet)
+
+The width and length of the differential pair MOSFETs remain unchanged, while the third MOSFET has a width of 21.684um and a length of 180nm.
 
 ![image](https://github.com/user-attachments/assets/aa9517fe-48a2-4029-8f63-c86a8f1c6a6e)
 
@@ -261,4 +270,26 @@ It is satisfying the required condition therefore, the transistors lies in satur
 |---------------|--------------|-----------------|
 |Av(in dB)      | 18.65dB      | 19.56dB         |
 |Av(in V/V)     | 8.53         | 9.50            |
+
+
+### INFERENCE 
+In this experiment, we explored the behavior of a differential amplifier with three different load configurations: resistor, current source, and NMOS. Each configuration affects the amplifier’s performance in unique ways, especially in terms of voltage gain and stability.
+
+Here’s a simple breakdown of the results:
+
+- **Resistor Load (Circuit 01)**: This configuration gave a gain of 9.47 V/V. The resistor load is the most basic, and its gain is somewhat lower compared to the other two configurations.
+  
+- **Current Source Load (Circuit 02)**: With a gain of 9.488 V/V, this configuration achieved a slightly higher gain. This happens because a current source acts like an ideal load with very high output impedance, which helps increase the gain.
+
+- **NMOS Load (Circuit 03)**: The NMOS configuration resulted in the highest gain of 9.50 V/V, but this gain is close to that of the current source configuration. The reason it’s not higher is that the active load (NMOS) has some finite impedance, unlike an ideal current source.
+
+### Key Inferences:
+1. **Voltage Gain**: The gain is highest in the NMOS configuration and slightly lower in the resistor configuration. The current source also increases the gain compared to the resistor, due to its high output impedance.
+  
+2. **Bias Current Stability**: Across all configurations, the bias current remained steady at about 0.61mA, showing that the circuit was properly biased.
+
+3. **Common-Mode Voltage (Vocm)**: The common-mode output voltage was stable at around 1.1V, which is consistent with the design specifications.
+
+### Conclusion:
+This experiment clearly shows that the choice of load—whether a resistor, current source, or NMOS—has a noticeable impact on the performance of a differential amplifier. The current source and NMOS loads help achieve higher gains, and the circuit remains stable with the proper biasing, making it a valuable exercise in understanding how load configurations affect amplifier behavior.
 
