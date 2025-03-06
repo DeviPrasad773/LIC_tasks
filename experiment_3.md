@@ -172,15 +172,42 @@ Av= -6.63mS * 1.147kΩ = -7.605 V/V
 
 ![cir2_dc_out](https://github.com/user-attachments/assets/bef9bd61-d951-4587-bd9f-5a62232cea57)
 
+ - After this in "view command" go to " SPICE Output Log " option to check Vgs, Vth ,Vds etc.
+
+![Screenshot 2025-03-06 232945](https://github.com/user-attachments/assets/dac5d637-70e6-4948-b062-a77ac383f70e)
+
+
+**- Condition for transistor to operate in saturation region,**
+
+Vgs>Vth, 
+
+Vds> Vov 
+
+From the Output Log we can observe that Vgs= 0.55V , Vth= 0.498V and Vds = 0.7V . 
+
+It is satisfying the required condition therefore, the transistors lies in saturation region .
+
+**Q point = (Vds,Id) = (0.7V,0.610mA).**
+
 ### Transient Analysis
 
 ![image](https://github.com/user-attachments/assets/847c69c6-5f6a-45a2-b623-92bc34a1fc81)
+
+- We can observe that it has 180 degree Phase shift.
+- It has a gain of -8.51V/V
 
 ### AC Analysis
 
 ![image](https://github.com/user-attachments/assets/3b0ed8ce-9b2c-412d-a1d2-565af6ee8ef3)
 
+- The theoretical gain in db is 18.65 DB
+- **Obatained differential gain is around  19.544 DB**
+- **3db Bandwidth=2.11Ghz**
 
+|Parameter      |Theory value  | Practical value |
+|---------------|--------------|-----------------|
+|Av(in dB)      | 18.65dB      | 19.54dB         |
+|Av(in V/V)     | 8.51         | 9.488           |
 
 ## Circuit 3
 
