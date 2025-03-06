@@ -196,6 +196,7 @@ It is satisfying the required condition therefore, the transistors lies in satur
 - We can observe that it has 180 degree Phase shift.
 - It has a gain of -8.51V/V
 
+
 ### AC Analysis
 
 ![image](https://github.com/user-attachments/assets/3b0ed8ce-9b2c-412d-a1d2-565af6ee8ef3)
@@ -271,11 +272,30 @@ It is satisfying the required condition therefore, the transistors lies in satur
 |Av(in dB)      | 18.65dB      | 19.56dB         |
 |Av(in V/V)     | 8.53         | 9.50            |
 
+# **Final Result**
 
-### INFERENCE 
+| **Parameter** | **Circuit 1** | **Circuit 2** | **Circuit 3** |
+|--------------|--------------|--------------|--------------|
+| **V(out1)**  | 1.1V  | 1.10024V  | 1.10001V  |
+| **V(out2)**  | 1.1V  | 1.10024V  | 1.10001V  |
+| **V(vp)** | 0.400141V | 0.400166V | 0.400143V |
+| **Id(M1)** | 0.610213 mA | 0.61 mA | 0.610201 mA |
+| **Id(M2)** | -0.610213 mA | -0.61 mA | -0.610201 mA |
+| **Id(M3) (Tail Current Source)** | Not present | 1.22 mA (set with ideal current source) | 1.2204 mA |
+| **Total Tail Current** | 1.22043 mA | 1.22 mA | 1.2204 mA |
+
+   
+# **Inference**
+
 In this experiment, we explored the behavior of a differential amplifier with three different load configurations: resistor, current source, and NMOS. Each configuration affects the amplifier’s performance in unique ways, especially in terms of voltage gain and stability.
 
-Here’s a simple breakdown of the results:
+## Comparison of Differential Pair Circuits
+
+| Feature               | **Circuit 1**                  | **Circuit 2**                  | **Circuit 3**                  |
+|-----------------------|--------------------------------|--------------------------------|--------------------------------|
+| **Current Source**    | Resistor (327.87Ω)               | Ideal Current Source (1.22mA) | Active Current Source (NMOS)   |
+| **Practicality**      | Less Practical                | Suitable for AC Analysis       | Realistic for Circuit Design   |
+
 
 - **Resistor Load (Circuit 01)**: This configuration gave a gain of 9.47 V/V. The resistor load is the most basic, and its gain is somewhat lower compared to the other two configurations.
   
