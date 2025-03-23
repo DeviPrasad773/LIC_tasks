@@ -219,3 +219,40 @@ The amplifier gain is slightly higher than the theoretical expectation in both m
 Increasing the mirror ratio (from 1:1 to 1:2) leads to an increase in gain, as expected. However, it also impacts bandwidth, reducing it from 2.267 GHz to 1.173 GHz.
 
 The obtained results closely match theoretical values, validating the simulation setup and circuit behavior.
+
+---------------------------------------------------------------------------------------------   
+
+
+# PART-B
+## Aim
+Design the differential amplifier using the same design specification as Experiment-3.
+Perform DC analysis,trasient and AC analysis.
+
+### DC Analysis:
+
+![a2](https://github.com/user-attachments/assets/7a288378-fe12-443a-a758-d9724e716933)
+
+**Output:**
+
+![a1](https://github.com/user-attachments/assets/03b527cf-4c2f-4c8c-a77e-97e929fc2504)
+
+### Transient Analysis:
+
+![a4](https://github.com/user-attachments/assets/5f5d6e0d-2fd0-4915-9d98-32dcdca55315)
+
+
+**Output Waveform:**
+
+![a3](https://github.com/user-attachments/assets/b9e84eb5-4cba-404f-b093-b96f7067e975)
+
+### AC Analysis:
+
+![a6](https://github.com/user-attachments/assets/7f25c62d-aef6-4887-ae26-ed3e339e19ff)
+
+**Output Waveform:**
+
+![a5](https://github.com/user-attachments/assets/6f85826b-afc4-4928-956d-1dadf4af64e4)
+
+**3db Bandwidth:**
+
+![a7](https://github.com/user-attachments/assets/e3878786-077a-4b18-aec6-b244297348b1)
