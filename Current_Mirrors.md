@@ -38,6 +38,46 @@ Vin is selected in such a way that it should be in saturation region so the give
 
 ![Screenshot 2025-03-22 160429](https://github.com/user-attachments/assets/f5f4e14e-0810-4e12-8740-0b8a02a505cf)
 
+### Analyzing the current mirroring circuit by changing the w and L but maintaing the same ratio.
+
+**(a)L=180nm.**
+
+We know the (w/L) ratio is 16.667.
+
+Therefore for L=180nm the w=3um.
+
+|Mosfet     |  Id                 | 
+|-----------|---------------------|
+|  M1       |   0.000277527       |             
+|  M2       |   0.000277527       |         
+|  M3       |   0.0002778         |             
+
+**(b)L=500nm.**
+
+We know the (w/L) ratio is 16.667.
+
+Therefore for L=500nm the w=8.334um.
+
+|Mosfet     |  Id                   |  
+|-----------|-----------------------|
+|  M1       |   0.000281241         |             
+|  M2       |   0.000281241         |             
+|  M3       |   0.0002778           |             
+
+**(c)L=1um.**
+
+We know the (w/L) ratio is 16.667.
+
+Therefore for L=1um the w=16.667um.
+
+
+|Mosfet     |  Id                   | 
+|-----------|-----------------------|
+|  M1       |   0.000280654         |             
+|  M2       |   0.000280654         |             
+|  M3       |   0.0002778           |             
+
+
 ## Transient Analysis:
 
 #### Steps for transient Analysis:
