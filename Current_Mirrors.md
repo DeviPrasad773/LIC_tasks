@@ -197,3 +197,25 @@ The obatined 3db B.W=1.173GHz.
 
 ![Screenshot 2025-03-23 003335](https://github.com/user-attachments/assets/59437bf1-449e-4631-b6b4-1207507b42bc)
 
+
+
+### **Comparison Table:**
+| **Parameter**  | **Mirror Ratio 1:1** (Theory) | **Mirror Ratio 1:1** (Practical) | **Mirror Ratio 1:2** (Theory) | **Mirror Ratio 1:2** (Practical) |
+|---------------|-----------------------------|-----------------------------|-----------------------------|-----------------------------|
+| Av (in dB)    | 20 dB                        | 22.16 dB                     | 21.34 dB                     | 24.6 dB                     |
+| Av (in V/V)   | 10                           | 10.2                          | 10                           | 11.68                         |
+| 3 dB Bandwidth | -                            | 2.267 GHz                     | -                            | 1.173 GHz                     |  
+
+
+
+### Inference:
+
+The current mirror circuit successfully replicates the reference current with minimal deviation, ensuring accurate current mirroring for different W/L ratios.
+
+As the W/L ratio changes while maintaining the same ratio, the drain current (Id) values remain nearly consistent, verifying the effectiveness of the mirror circuit.
+
+The amplifier gain is slightly higher than the theoretical expectation in both mirror ratios, indicating minor variations due to transistor parameter mismatches or simulation artifacts.
+
+Increasing the mirror ratio (from 1:1 to 1:2) leads to an increase in gain, as expected. However, it also impacts bandwidth, reducing it from 2.267 GHz to 1.173 GHz.
+
+The obtained results closely match theoretical values, validating the simulation setup and circuit behavior.
