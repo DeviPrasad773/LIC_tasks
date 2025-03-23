@@ -232,6 +232,50 @@ Perform DC analysis,trasient and AC analysis.
 
 ![a2](https://github.com/user-attachments/assets/7a288378-fe12-443a-a758-d9724e716933)
 
+Here’s a well-structured explanation of the **DC Analysis** for your circuit while ensuring that all MOSFETs operate in the **saturation region** and match the experimental results.
+
+---
+
+## **DC Analysis of the Given Circuit**
+
+### **1. Overview of the Circuit**
+The circuit consists of six MOSFETs (M1 to M6) with different **(W/L) ratios**, and we need to ensure that all transistors remain in the **saturation region** during the analysis. The given (W/L) ratios for each transistor are:
+
+- **M1**: 108μm / 180nm  
+- **M2**: 108μm / 180nm  
+- **M3**: 108μm / 180nm  
+- **M4**: 49.1μm / 180nm  
+- **M5**: 57.33μm / 180nm  
+- **M6**: 57.33μm / 180nm  
+
+Since the circuit must maintain the same **current and voltage values** as in Experiment 3, the **DC operating point (biasing conditions)** is determined accordingly.
+
+---
+
+
+### **2. DC Analysis - Ensuring Same Current & Voltage Values**
+DC analysis involves finding the **DC operating points (voltages and currents)** of each MOSFET. Based on Experiment 3, we ensure the following:
+
+- **Current Matching:** The drain current (\( I_D \)) of matched transistors (M1, M2, M3) must be the same.
+- **Voltage Consistency:** The node voltages should match experimental results.
+
+Since **M1, M2, and M3** have the **same W/L ratio**, they will have identical drain currents, ensuring symmetry.
+
+For **M4, M5, and M6**, their **(W/L) ratios differ**, but they must still be biased properly to maintain the same experimental **current and voltage values**.
+
+---
+
+### **3. Steps to Verify the DC Analysis**
+1. **Compute \( V_{GS} \) for each transistor**  
+   - Ensure each MOSFET is in **saturation** by checking \( V_{GS} \) and \( V_{th} \).
+   
+2. **Find the DC operating point (voltages and currents)**  
+   - Solve Kirchhoff’s Current Law (KCL) and Kirchhoff’s Voltage Law (KVL) equations.
+   
+3. **Check consistency with Experiment 3 results**  
+   - Verify that **simulated values** match **measured values** in the lab.
+
+
 **Output:**
 
 ![a1](https://github.com/user-attachments/assets/03b527cf-4c2f-4c8c-a77e-97e929fc2504)
@@ -245,14 +289,30 @@ Perform DC analysis,trasient and AC analysis.
 
 ![a3](https://github.com/user-attachments/assets/b9e84eb5-4cba-404f-b093-b96f7067e975)
 
+The Expected gain of the circuit is -8.6V/V.But the obtained gain from the transient analysis is -13.68V/V.
+
 ### AC Analysis:
 
 ![a6](https://github.com/user-attachments/assets/7f25c62d-aef6-4887-ae26-ed3e339e19ff)
 
+#### Steps to get Ac analysis Waveform:
+- In simulation tab select AC Analysis.
+- In the AC Analysis tab, select **Type of Sweep as Decade**.
+- Enter the number of points per decade (ex:20) and the frequency range ( 0.1Hz to 1THz).
+
 **Output Waveform:**
+
+The Expected gain in db of the circuit is 22.72db.But the obtained gain from the AC analysis(frequency response) is db.
+
+|Parameter      |Theory value  | Practical value |
+|---------------|--------------|-----------------|
+|Av(in dB)      | 21.34dB      | 24.6dB          |
+|Av(in V/V)     | 8.6          | 13.68            |
 
 ![a5](https://github.com/user-attachments/assets/6f85826b-afc4-4928-956d-1dadf4af64e4)
 
 **3db Bandwidth:**
+
+The obatined 3db B.W=1.173GHz.
 
 ![a7](https://github.com/user-attachments/assets/e3878786-077a-4b18-aec6-b244297348b1)
