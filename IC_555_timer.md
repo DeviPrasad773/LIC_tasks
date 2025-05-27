@@ -59,7 +59,7 @@ So, you can use a resistor close to **455 Ω**.
 5. **Measure Output**: Check if the output pulse is about 0.5 ms when the trigger is applied.
 
 ## **Simulation Result**
-
+![Screenshot 2025-05-26 211126](https://github.com/user-attachments/assets/98169ffc-56d6-440a-bb20-af8d71fd7d5e)
 
 ## **Inference**
 
